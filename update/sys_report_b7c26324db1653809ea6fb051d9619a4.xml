@@ -39,7 +39,7 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>active</field>
-        <field_list/>
+        <field_list>number,opened_by,priority,state,assigned_to,short_description,sys_class_name,location,u_workflow_stage</field_list>
         <filter table="task">sys_class_name=x_snc_safety1_issue<item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_snc_safety1_issue"/>
         </filter>
         <from/>
@@ -79,7 +79,7 @@
         <series_name_text/>
         <set_color/>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>true</show_chart_data_label>
+        <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_data_label_position_middle>false</show_data_label_position_middle>
@@ -96,21 +96,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-23 00:34:11</sys_created_on>
         <sys_id>b7c26324db1653809ea6fb051d9619a4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Safety Map</sys_name>
         <sys_package display_value="Safety1" source="x_snc_safety1">c4312fe8dbd253809ea6fb051d961986</sys_package>
         <sys_policy/>
         <sys_scope display_value="Safety1">c4312fe8dbd253809ea6fb051d961986</sys_scope>
         <sys_update_name>sys_report_b7c26324db1653809ea6fb051d9619a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-23 00:34:38</sys_updated_on>
+        <sys_updated_on>2018-05-23 17:00:45</sys_updated_on>
         <table>task</table>
         <title>Safety Map</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field>activity_due</trend_field>
-        <type>map</type>
+        <type>list</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <user>6816f79cc0a8016401c5a33be04be441</user>
